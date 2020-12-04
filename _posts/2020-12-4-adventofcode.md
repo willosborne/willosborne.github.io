@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advent of Code 2020 Day 1: Report repair
+title: "Advent of Code 2020 Day 1: Report repair"
 tags: adventofcode, coding
 ---
 
