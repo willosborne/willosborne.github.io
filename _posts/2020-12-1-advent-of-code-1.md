@@ -7,6 +7,8 @@ tags: adventofcode, coding
 Every year, [Advent of Code](adventofcode.com) runs a series of coding challenges in the form of an advent calendar: 25 puzzles, getting progressively harder as the month goes on.
 This year, I'm having a crack at it in Clojure, because Clojure is cool.
 
+You can find all my solutions [on my GitHub.](https://github.com/willosborne/aoc-2020/tree/master/src/advent_2020)
+
 Day 1 presents a relatively simple task to warm people up.
 The task is to examine lists of numbers in a given file, find the numbers that add to 2020 and return their product.
 Part 2 simply extends it to triples of numbers, so I'll do that here as the implementations are the same.

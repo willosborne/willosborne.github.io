@@ -17,7 +17,11 @@ Passwords were structured like this:
 
 In line 1, the letter a must appear between 1 and 3 times in the password. 
 
+You can find my solution [on my GitHub.](https://github.com/willosborne/aoc-2020/blob/master/src/advent_2020/day-2.clj)
+
 ## Initial parsing attempt: Kern
+My philosophy when working with input data is to **parse the input into something you can work with easily.** In OOP this means building objects, in Haskell it means Algebraic Data Types, and in Clojure it usually means vectors and maps, with key information extracted in the form of `:keywords` for easy access. You shouldn't have to do any data wrangling in the core logic - separate the input processing into a different layer of abstraction. As such, I decided to go all in on parsing this year and do it *properly* - which can be quite time-consuming.
+
 Part of the reason I chose a functional language this year was the excellent parsing support.
 My initial thought was to use parser combinators, a powerful concept allowing you to define your parsers by combining simple parsers together.
 For example, one might make a parser for a hexadecimal colour code by writing a parser that accepted a hash symbol, a parser that accepted a hex digit, and then combining them with combinators:
