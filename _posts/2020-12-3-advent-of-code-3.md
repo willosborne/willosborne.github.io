@@ -2,6 +2,7 @@
 layout: post
 title: "Advent of Code 2020 Day 3: Toboggan Trajectory"
 tags: adventofcode coding
+categories: coding
 ---
 
 Day 3 sees us riding a toboggan down a slope in the hope of catching our flight.

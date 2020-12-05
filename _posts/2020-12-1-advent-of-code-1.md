@@ -2,6 +2,7 @@
 layout: post
 title: "Advent of Code 2020 Day 1: Report repair"
 tags: adventofcode coding
+categories: coding
 ---
 
 Every year, [Advent of Code](adventofcode.com) runs a series of coding challenges in the form of an advent calendar: 25 puzzles, getting progressively harder as the month goes on.

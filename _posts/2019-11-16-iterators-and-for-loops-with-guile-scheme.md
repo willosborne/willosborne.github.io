@@ -2,6 +2,7 @@
 layout: post
 title: "Iterators and for loops with Guile Scheme"
 tags: scheme lisp iterators guile emacs
+categories: coding
 ---
 
 I've been very slowly working towards procedurally generating space stations using [Guile Scheme](https://www.gnu.org/software/guile/), the GNU Project's implementation of Scheme and its official scripting language. Scheme is a minimal language by design, and I have found it lacking proper support for iterative for loops, which are very useful in procedural generation. Thanks to Scheme's incredible expressive power via both hygienic Lisp macros and first-class continuations, building this functionality into Scheme is a lot easier than you might expect.
