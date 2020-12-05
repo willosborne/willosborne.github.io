@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Advent of Code 2020 Day 2: Password Philosophy"
-tags: adventofcode, coding
+tags: adventofcode coding
 ---
 
 Day 2 of Advent of Code introduced some challenges: namely, parsing.

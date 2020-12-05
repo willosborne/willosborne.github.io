@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Advent of Code 2020 Day 4: Passport Processing"
-tags: adventofcode, coding
+tags: adventofcode coding
 ---
 
 Day 4 is when things start to get interesting. This puzzle is all data validation, this time checking passports.
